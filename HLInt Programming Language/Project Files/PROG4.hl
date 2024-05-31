@@ -1,0 +1,14 @@
+x: integer;
+y: double;
+z: double;
+x:= 3;
+y:= 2.25;
+output<<x;
+output<<y;
+if(x!=y)
+ y = y+x;
+output<<y;
+if(y>x)
+ z = x-y;
+output<<z;
+
