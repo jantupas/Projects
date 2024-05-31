@@ -1,0 +1,31 @@
+GOOGLE COLAB NOTEBOOK LINKS 
+
+Data Collection 
+https://colab.research.google.com/drive/1D1yHfZ6HjVqcjgWuj6f_qw01qLviMFbi?usp=sharing 
+
+Data Pre-processing 
+https://colab.research.google.com/drive/1U-sZb2Q4kxOl0tvHNarTRlfdWX7YtJCN?usp=sharing 
+
+Visualization 
+https://colab.research.google.com/drive/19dROt6DMOI0HzHPepDyu3lBcEeKq3pHD?usp=sharing 
+
+Logistic Regression 
+https://colab.research.google.com/drive/1QF4T2sWkrfdVdZsRiapOBbc4Qjs46ae-?usp=sharing 
+
+SVM 
+https://colab.research.google.com/drive/1M3B76eaxHe6FRS9zK1wktAxfgmQsMC2N?usp=sharing 
+
+KNN 
+https://colab.research.google.com/drive/1Ljy9TAKptbdHRcFttlYeAQbzB0iYlT5n?usp=sharing 
+
+Random Forest 
+https://colab.research.google.com/drive/1x0e19T5NYWrd7zD7V2oRf_sMf8_M-1Ql?usp=sharing 
+
+Gradient Boosting 
+https://colab.research.google.com/drive/1pmhRID6zbytzW0oD51fTKe6ylFDpAtSM?usp=sharing 
+
+Decision Tree 
+https://colab.research.google.com/drive/1l-fA1p7WPuuTMmg0OaxGkMj1uKFJTRzy?usp=sharing 
+
+Naïve Bayes 
+https://colab.research.google.com/drive/1JiJCEFfDEhMuK2gXSt8tU2ZlGQqOvtEj?usp=sharing
