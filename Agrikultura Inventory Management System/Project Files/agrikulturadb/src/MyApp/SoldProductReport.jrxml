@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5f0a536e-68da-4235-80b5-51ef84260a70">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+PRODID,
+PRODNAME,
+PRODQUANTITY,
+PRODPRC
+FROM
+ sellrec]]>
+	</queryString>
+	<field name="PRODID" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="PRODNAME" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="PRODQUANTITY" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="PRODPRC" class="java.lang.Double">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="138" splitType="Stretch">
+			<rectangle>
+				<reportElement x="-21" y="0" width="850" height="138" backcolor="#009966" uuid="d78ec0ed-9bf4-4a60-8594-15fdb04f88eb"/>
+			</rectangle>
+			<staticText>
+				<reportElement mode="Opaque" x="132" y="37" width="558" height="68" uuid="6b851fef-81d8-46d6-87d2-ae14f62c72a1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Monotype Corsiva" size="38" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Agrikultura Sold Products Report]]></text>
+			</staticText>
+			<image>
+				<reportElement x="10" y="14" width="104" height="109" uuid="57aa9275-d4ca-4d3e-9a35-701990a4d8e9"/>
+				<imageExpression><![CDATA["C:\\Users\\janed\\Documents\\NetBeansProjects\\agrikulturadb\\src\\MyApp\\vegetable.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="44" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="22" width="100" height="20" uuid="a633f9ad-dd6b-4514-833d-0612527528aa"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="22" width="100" height="20" uuid="84938e84-cab7-4397-9d84-12f3542a40d9"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NAME]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="475" y="24" width="100" height="20" uuid="d7999822-5bb9-4e93-88e0-644714af90e4"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[QUANTITY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="690" y="22" width="100" height="20" uuid="be93deff-0133-4d10-afa1-c6418813c095"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PRICE]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="40" splitType="Stretch">
+			<textField>
+				<reportElement x="39" y="10" width="61" height="20" uuid="4801dcca-685f-4eb8-91c1-ad019ebbd861"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PRODID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="261" y="10" width="115" height="20" uuid="825b78db-47a8-48bd-83de-2df933f18b90"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PRODNAME}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="519" y="10" width="56" height="20" uuid="b4dd965f-d7d4-42ee-8c37-2fcf5a965319"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PRODQUANTITY}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="732" y="10" width="58" height="20" uuid="ce38d0c2-18e4-4f5d-8fcd-01abe1afc927"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PRODPRC}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="32" splitType="Stretch">
+			<rectangle>
+				<reportElement stretchType="RelativeToBandHeight" x="-21" y="0" width="850" height="31" forecolor="#FFFFFF" backcolor="#009966" uuid="a964481d-b281-4f2a-b537-3b9fa5f94c2a"/>
+			</rectangle>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="10" y="11" width="160" height="20" forecolor="#FFFFFF" uuid="b76d51ce-44eb-45f3-bd64-f93648293e35"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="769" y="11" width="33" height="20" forecolor="#FFFFFF" uuid="2edeb307-7a31-491a-9990-5ed63fdaf8dd"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

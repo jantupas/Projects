@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8b60df17-23ae-4eed-8be3-34343da13b36">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT
+PRODID,
+PRODNAME,
+PRODSTATUS,
+PRODQUANTITY,
+EXPDATE
+FROM
+ prodrec
+WHERE PRODSTATUS = 'Expired']]>
+	</queryString>
+	<field name="PRODID" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="PRODNAME" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="PRODSTATUS" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="PRODQUANTITY" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="EXPDATE" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="146" splitType="Stretch">
+			<rectangle>
+				<reportElement x="-23" y="0" width="850" height="146" forecolor="#FFFFFF" backcolor="#009966" uuid="a4cac369-68df-4eb3-b9c2-902fa60e99da"/>
+			</rectangle>
+			<staticText>
+				<reportElement mode="Opaque" x="127" y="41" width="599" height="68" uuid="48576c48-7d7d-47a7-9471-fa1f5b352d1a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Monotype Corsiva" size="38" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Agrikultura Product Removal Report]]></text>
+			</staticText>
+			<image>
+				<reportElement x="10" y="27" width="104" height="101" uuid="c2fce0d8-2f16-47f4-8a86-f99f800276fc"/>
+				<imageExpression><![CDATA["C:\\Users\\janed\\Documents\\NetBeansProjects\\agrikulturadb\\src\\MyApp\\vegetable.jpg"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="43" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="43" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="22" width="41" height="20" uuid="4f5ce93d-ae5d-4c6b-88d1-b2014f9db756"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="143" y="22" width="100" height="20" uuid="31de45b4-bad4-496b-8e6a-55f8e103fa30"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NAME]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="336" y="22" width="100" height="20" uuid="cc1d8124-a57c-4cd4-bcc9-3be4261bd751"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[STATUS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="515" y="22" width="100" height="20" uuid="38cbb1ea-294b-40ab-abd6-fb8df92e6264"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[QUANTITY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="686" y="22" width="116" height="20" uuid="89865f1f-4165-4bbc-81cc-017c901519a3"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[EXPDATE]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="37" splitType="Stretch">
+			<textField>
+				<reportElement x="10" y="10" width="31" height="20" uuid="ad3ddbee-fd56-4bdd-bf7d-d94463ee205c"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PRODID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="174" y="10" width="107" height="20" uuid="600b3361-1329-4293-9e71-9a8ac310256b"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PRODNAME}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="366" y="10" width="70" height="20" uuid="89fb0083-8dd8-44cd-b0a4-9c880650d9ee"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PRODSTATUS}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="552" y="10" width="43" height="20" uuid="16bccf97-4c11-4d33-a04f-8b743ec35c73"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PRODQUANTITY}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="726" y="10" width="43" height="20" uuid="4a2c44b1-79c1-4617-9d33-718b71c20fcd"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{EXPDATE}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="32" splitType="Stretch">
+			<rectangle>
+				<reportElement stretchType="RelativeToBandHeight" x="-23" y="0" width="850" height="31" forecolor="#FFFFFF" backcolor="#009966" uuid="d79ddf76-de56-45f5-ae77-bb2591053597"/>
+			</rectangle>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="14" y="11" width="160" height="20" forecolor="#FFFFFF" uuid="30877e7d-b94e-4599-a02f-b4cd7362815d"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="769" y="11" width="33" height="20" forecolor="#FFFFFF" uuid="c0a74fb9-d149-4255-b938-442a145e5c6a"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
