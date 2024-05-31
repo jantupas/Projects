@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #F4F3F2;
+}
+.whole-home-container{
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-position: center 80%;
+    background-size: 500px;
+    background-attachment: fixed;
+}
+.home-background {
+    background-color: rgba(244, 243, 242, 0.90);
+}
+.gal-img {
+    width: 250px;
+    height: 35vh;   
+    object-fit: cover;
+    transition: filter 0.3s ease;
+}
+.gal-img:hover {
+    cursor: pointer;
+    filter: brightness(0.7);
+}
+.gal-collection {
+    margin: 100px auto 0px auto;
+}
+.gallery-cont {
+    display: grid;
+    grid-template: auto / auto auto auto auto;
+    justify-content: center;
+    gap: 10px;
+    overflow: hidden;
+}
+.gal-title {
+    font-family: cursive;
+    color: darkgreen;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding: 20px 0px 20px 0px;
+    text-shadow: 
+        1px 1px 0 yellow,  
+        -1px -1px 0 yellow,
+         1px -1px 0 yellow,
+        -1px  1px 0 yellow;
+
+}
+.overlay {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 70px);
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .enlarged-img {
+    max-width: 90%;
+    max-height: calc(100% - 70px - 10px);
+    border: 5px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+@media screen and (max-width: 1070px) {
+    .gallery-cont {
+      grid-template-columns: auto auto;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .gallery-cont {
+      grid-template-columns: auto;
+    }
+  }
+  

@@ -1,0 +1,492 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #F4F3F2;
+}
+.adm-dash-nav {
+    margin-top: 120px;
+    width: 100%;
+}
+.nav-content {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.nav-item{
+    margin: 0px 30px;
+    padding: 0px 2px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: 600;
+    letter-spacing: -1px;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom-color 0.3s;
+}
+.nav-item:hover{
+    border-bottom-color: green;
+}
+.admdash-ann-cont {
+    margin: 70px auto auto auto;
+    max-width: 1450px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.ann-dash-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: darkgreen;
+    letter-spacing: -3px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.announcement-table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.announcement-table th,
+.announcement-table td {
+  border: 1px solid black; 
+  padding: 8px;
+}
+
+.announcement-table th {
+  background-color: #f2f2f2; 
+}
+.ann-table-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.ann-table-content {
+    padding: 10px 30px;
+}
+.ann-modify-btn {
+    margin: auto;
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 9px;
+    border-width: 0px;
+}
+.ann-cancel-btn {
+    margin: auto;
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 9px;
+    border-width: 0px;
+}
+.ann-cancel-btn:hover {
+    cursor: pointer;
+    background-color: darkred;
+}
+.ann-modify-btn:hover {
+    cursor: pointer;
+    background-color: darkgreen;
+}
+.adm-ann-form-container {
+    padding: 20px;
+    text-align: center;
+}
+.adm-ann-in {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 9px;
+    border-width: 1px;
+}
+.adm-ann-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.adm-ann-con-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding-bottom: 10px;
+}
+.adm-ann-container > textarea {
+    height: 300px;
+}
+.ann-modify-btn-con {
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+}
+.ann-delete-btn {
+    margin: auto;
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 9px;
+    border-width: 0px;
+    margin-top: 10px;
+}
+.ann-delete-btn:hover {
+    cursor: pointer;
+    background-color: darkred;
+}
+.add-container {
+    margin-top: 50px;
+}
+.add-title {
+    text-align: center;
+    color: darkgreen;
+    font-size: 2.5rem;
+    letter-spacing: -3px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.app-dash-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: darkgreen;
+    letter-spacing: -3px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.application-table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: auto;
+}
+.application-table th,
+.application-table td {
+  border: 1px solid black; 
+  padding: 8px;
+}
+
+.application-table th {
+  background-color: #f2f2f2; 
+}
+.app-table-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.app-table-content {
+    padding: 10px 30px;
+}
+.app-dash-cont {
+    width: 95%;
+    margin: 50px auto 0px auto;
+    border-radius: 9px;
+    background-color: white;
+    padding: 15px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.application-table {
+    text-align: center;
+    width: 100%;
+    overflow-x: auto;
+}
+.app-table-btns {
+    display: grid;
+    grid-template: auto auto auto / auto;
+    gap: 5px;
+}
+.app-approve-btn {
+    margin: auto;
+    width: 70px;
+    background-color: green;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.app-deny-btn {
+    margin: auto;
+    width: 70px;
+    background-color: red;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.app-pending-btn {
+    margin: auto;
+    width: 70px;
+    background-color: gray;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.app-approve-btn:hover {
+    cursor: pointer;
+    background-color: darkgreen;
+}
+.app-deny-btn:hover {
+    cursor: pointer;
+    background-color: darkred;
+}
+.app-pending-btn:hover {
+    cursor: pointer;
+    background-color: darkslategray;
+}
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.pending-btn, .approved-btn, .denied-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-style: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+.approved-btn {
+    background-color: green;
+}
+.approved-btn:hover {
+    cursor: pointer;
+    background-color: darkgreen;
+}
+.denied-btn {
+    background-color: red;
+}
+.denied-btn:hover {
+    cursor: pointer;
+    background-color: darkred;
+}
+.pending-btn {
+    background-color: gray;
+}
+.pending-btn:hover {
+    cursor: pointer;
+    background-color: darkslategray;
+}
+.user-table-container {
+    background-color: white;
+    width: 90%;
+    margin: auto auto auto auto;
+}
+.user-dash-welcome {
+    margin-top: 100px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 3rem;
+    color: darkgreen;
+    padding-bottom: 10px;
+    letter-spacing: -2px;
+    text-shadow: 
+        1px 1px 0 yellow,  
+        -1px -1px 0 yellow,
+         1px -1px 0 yellow,
+        -1px  1px 0 yellow;
+}
+.applicant-info-table {
+    background-color: white;
+    width: 70%;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;   
+    padding: 30px 0px;
+}
+.applicant-table-title {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: -2px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.applicant-status-message{
+    margin: 70px auto 20px auto;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.status-pending, .status-approved, .status-denied {
+    width: 70%;
+    border-radius: 9px;
+    padding: 20px 0px;
+}
+.status-pending {
+    background-color: gray;
+    color: white;
+  }
+  
+  .status-approved {
+    background-color: green;
+    color: white;
+  }
+  
+  .status-denied {
+    background-color: red;
+    color: white;
+  }
+.user-contact-form-title{
+    padding-top: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: -2px;
+    color: darkgreen;
+    text-shadow: 
+        1px 1px 0 yellow,  
+        -1px -1px 0 yellow,
+         1px -1px 0 yellow,
+        -1px  1px 0 yellow;
+}
+.user-contact-form-desc {
+    color: darkslategray;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.user-logout-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.user-logout {
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.user-logout:hover {
+    cursor: pointer;
+    background-color: darkgreen;
+}
+.app-approve-btn, .app-deny-btn, .app-pending-btn, .ann-delete-btn, .ann-modify-btn ,.ann-cancel-btn{
+    transition: background-color 0.3s;
+}
+.table-container {
+    overflow-x: auto; 
+    max-width: 95%; 
+    margin: 0 auto;
+  }
+  
+@media (max-width: 1000px) {
+    .nav-content {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;  
+    }
+}
+@media (max-width: 580px) {
+    .nav-item {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 768px) {
+    .ann-dash-title {
+        font-size: 2rem;
+    }
+    .ann-table-title {
+        font-size: 1rem;
+    }
+    .ann-table-content {
+        font-size: 0.9rem;
+    }
+    .add-title {
+        font-size: 2rem;
+    }
+    .user-dash-welcome {
+        font-size: 2rem;
+    }
+    .filter-buttons {
+        flex-direction: column;
+    }
+    .announcement-table {
+        overflow-x: auto;
+        display: block;
+        white-space: nowrap;
+      }
+      .ann-table-content {
+        min-width: 100px; 
+        max-width: 200px; 
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+}
+@media (max-width: 851px) {
+    .user-dash-welcome {
+        font-size: 2rem;
+    }
+    .user-contact-form-title {
+        font-size: 2rem;
+    }
+    .user-contact-form-desc {
+        font-size: 1.2rem;
+    }
+    .applicant-table-title {
+        font-size: 2rem;
+    }
+    .app-table-title {
+        font-size: 1rem;
+    }
+    .app-table-content {
+        font-size: 0.9rem;
+    }
+    .applicant-status-message {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 480px) {
+    .ann-dash-title {
+        font-size: 1.8rem;
+    }
+    .ann-table-title {
+        font-size: 0.9rem;
+    }
+    .ann-table-content {
+        font-size: 0.8rem;
+    }
+    .add-title {
+        font-size: 1.8rem;
+    }
+    .user-dash-welcome {
+        font-size: 1.5rem;
+    }
+    .user-contact-form-title {
+        font-size: 1.5rem;
+    }
+    .user-contact-form-desc {
+        font-size: 1rem;
+    }
+    .applicant-table-title {
+        font-size: 1.5rem;
+    }
+    .app-table-title {
+        font-size: 0.9rem;
+    }
+    .app-table-content {
+        font-size: 0.8rem;
+    }
+    .applicant-status-message {
+        font-size: 1rem;
+    }
+      .ann-table-btns {
+        min-width: 150px; 
+      }
+      .nav-item {
+        font-size: 0.7rem;
+      }
+}
