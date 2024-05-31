@@ -1,0 +1,9 @@
+MODELS 
+
+SGD LR 0.01: https://colab.research.google.com/drive/1ACTR_SzicTRscOEfPx67Q0Vc6VEvFqdg?usp=sharing
+
+SGD LR 0.001: https://colab.research.google.com/drive/1hgcZdZ8lD_tkxuuT6_9zoJBPDxGo49f0?usp=sharing
+
+ADAM LR 0.01: https://colab.research.google.com/drive/17TIBVDpUbeBb4RKr1ZxI-rWLt0F7LHt8?usp=sharing
+
+ADAM LR 0.001: https://colab.research.google.com/drive/1M4OKZDPD-zXNRaXXFI5cWy6__ZvztNfU?usp=sharing
