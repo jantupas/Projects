@@ -1,0 +1,569 @@
+body{
+	background-color: #F8F8FF !important;
+}
+#container{
+	background-color: rgba(220,220,220,0.5)!important;
+	padding: 20px 70px 10px 70px !important;
+}
+.contact h2{
+	font-family: garamond, cambria, times;
+	color: #B22222;
+	text-align: center;
+	font-size: 35px;
+}
+input{
+	width: 90%;
+	height: 50%;
+	border: none;
+}
+.input-txt{
+	padding: 5px;
+	font-size: 13px;
+}
+button{
+	margin-top: 10px !important;
+}
+#logo{
+	width: 130px;
+	border-radius: 50%;
+}
+#carousel1 h1{
+	font-family: cambria;
+	color: #DC143C;
+	font-size: 80px;
+	text-shadow: 2px 2px white;
+}
+#carousel1 h2{
+	font-family: candara;
+}
+#caption{
+	background-color: rgba(0,0,0,0.6);
+}
+#welcome{
+	padding-top: 80px;
+	padding-left: 120px;
+}
+#welcome h1{
+	font-family: cambria;
+}
+#welcome p{
+	font-family: candara;
+	color: #2F4F4F;
+	font-size: 20px;
+	text-align: justify;
+}
+#welcome2 img{
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 120px;
+}
+#offers p{
+	font-family: candara;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	color: #2F4F4F;
+	padding-top: 10px;
+	font-size: 20px;
+}
+#offers h2{
+	font-family: candara;
+	text-align: center;
+	color: #B22222;
+}
+#offers h1{
+	font-family: cambria;
+	text-align: center;
+}
+#offer-content h5{
+	font-family: tahoma;
+	text-align: center;
+	font-size: 25px;
+}
+#offer-content p{
+	text-align: center;
+	line-height: 22px;
+	font-family: candara;
+	font-size: 20px;
+}
+hr{
+	margin-left: 200px !important;
+	margin-right: 200px !important;
+}
+#explore h2{
+	font-family: candara;
+	text-align: center;
+	color: #B22222;
+}
+#explore h1{
+	font-family: cambria;
+	text-align: center;
+}
+#explorep{
+	font-family: candara;
+	text-align: center;
+	margin-left: 320px;
+	margin-right: 320px;
+	color: #2F4F4F;
+	padding-top: 10px;
+	font-size: 20px;
+}
+#explore-content h5{
+	font-family: tahoma;
+	text-align: center;
+}
+#explore-content p{
+	text-align: center;
+	line-height: 22px;
+	font-family: candara;
+}
+#choose{
+	background-image: url(background1.jpg);
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+#choose h3{
+	color: #B22222;
+}
+#choose h1{
+	font-family: cambria;
+}
+#choose p{
+	font-family: candara;
+	text-align: justify;
+	font-size: 20px;
+}
+#reason{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: rgba(255,255,255,0.9);
+	border-radius: 25px;
+}
+#idea h2{
+	font-family: candara;
+	text-align: center;
+	color: #B22222;
+}
+#idea h1{
+	font-family: cambria;
+	text-align: center;
+}
+#carousel2 h1{
+	font-family: cambria;
+	color: white;
+}
+footer{
+	background-color: #292C33;
+	padding-top: 70px;
+}
+footer p{
+	color: white;
+	font-family: calibri;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+	font-family: calibri;
+}
+footer h1{
+	color: white;
+	text-align: center;
+	font-family: tahoma;
+}
+.final p{
+	color: white;
+	font-family: calibri;
+	text-align: center;
+}
+#feat1 h1{
+	text-align: center;
+	font-family: cambria;
+	font-size: 50px;
+}
+#feat1sum2{
+	background-image: linear-gradient(#F5F5DC, #FFE4C4);
+	padding: 40px 30px 40px 30px;
+}
+#feat1sum2 h1{
+	font-family: cambria;
+}
+#feat1sum2 p{
+	text-align: justify;
+	font-size: 19px;
+}
+#feat1it h1{
+	font-family: cambria;
+}
+#feat1it-cont{
+	background-image: linear-gradient(#F5F5DC, #FFE4C4);
+	padding: 30px;
+}
+#feat1it ul li{
+	list-style: none;
+}
+#feat1it{
+	line-height: 21px;
+}
+#feat1-pack h1{
+	font-family: cambria;
+}
+#feat1pack-cont{
+	background-image: linear-gradient(#F5F5DC, #FFE4C4);
+	padding: 30px;
+}
+#feat1-pack{
+	line-height: 28px;
+}
+#page2weAre{
+	background-image: url(background3.jpg);
+	padding: 210px;
+}
+#page2weAre h1{
+	text-align: center;
+	font-family: cambria;
+	font-size: 90px;
+}
+#page2weAre h2{
+	text-align: center;
+	font-family: candara;
+	color: #B22222;
+}
+.intro{
+	margin-left: 300px;
+	margin-right: 300px;
+}
+.intro h1{
+	text-align: center;
+	font-family: cambria
+}
+.intro h3{
+	text-align: center;
+	font-family: candara;
+	color: #B22222;
+}
+.intro p{
+	text-align: justify;
+	font-family: candara;
+	font-size: 20px;
+}
+.accordion-body{
+	font-family: candara;
+	font-size: 20px;
+}
+#accordionFlush1 button{
+	font-size: 26px;
+	font-family: cambria;
+	color: #B22222;
+}
+#accordionFlush1{
+	padding-top: 5px;
+}
+.team h1{
+	text-align: center;
+	font-family: cambria
+}
+.team h3{
+	text-align: center;
+	font-family: candara;
+	color: #B22222;
+}
+.team p{
+	text-align: center;
+	font-family: candara;
+	font-size: 20px;
+}
+#team p{
+	text-align: center;
+	font-family: calibri;
+	font-size: 20px;
+}
+.team h4{
+	text-align: center;
+	font-family: cambria;
+	color: #B22222;
+}
+.team img{
+	padding-bottom: 10px;
+	cursor: pointer;
+}
+#teamMember h1{
+	font-family: cambria;
+	font-size: 50px;
+}
+#teamMember h3{
+	font-family: cambria;
+}
+#teamMember p{
+	text-align: justify;
+	font-family: candara;
+	padding-top: 5px;
+}
+#teamMember q{
+	font-family: candara;
+}
+#newTeam{
+	background-image: url(background4.jpg);
+	padding: 200px;
+}
+#newTeam h2{
+	text-align: center;
+	font-family: candara;
+	color: #B22222;
+}
+#newTeam h1{
+	text-align: center;
+	font-family: cambria;
+	font-size: 100px;
+}
+#newTeam2 p{
+	font-family: candara;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-top: 10px;
+	font-size: 18px;
+	line-height: 30px;
+}
+#contactUs{
+	background-image: url(background2.jpg);
+	padding: 200px;
+}
+#contactUs h1{
+	text-align: center;
+	font-family: cambria;
+	font-size: 100px;
+}
+#contactUs h2{
+	text-align: center;
+	font-family: candara;
+	color: #B22222;
+}
+#how{
+	padding-left: 200px;
+	padding-right: 200px;
+	line-height: 40px;
+}
+#how h1{
+	text-align: center;
+	font-family: cambria;
+	font-size: 60px;
+}
+#how p{
+	text-align: center;
+	font-family: candara;
+	font-size: 23px;
+	color: #B22222;
+}
+#forms{
+	text-align: center;
+}
+#forms h1{
+	font-family: cambria;
+	font-size: 50px;
+}
+.title h1{
+	font-family: cambria;
+}
+#direct{
+	text-align: center;
+}
+#direct h1{
+	font-family: cambria;
+	font-size: 50px;
+}
+#direct p{
+	text-align: center;
+	font-family: candara;
+	font-size: 23px;
+	color: #B22222;
+}
+#directContact{
+	text-align: center;
+}
+#directContact h1{
+	font-family: cambria;
+}
+#directContact p{
+	font-family: candara;
+	color: #B22222;
+	font-size: 20px;
+}
+#map{
+	text-align: center;
+}
+#contactBack1{
+	background-image: linear-gradient(#F5F5DC, #FFE4C4);
+	margin-left:100px;
+	margin-right: 100px;
+	padding: 70px;
+}
+#contactBack2{
+	background-image: linear-gradient(#F5F5DC, #FFE4C4);
+	margin-left:100px;
+	margin-right: 100px;
+	padding: 70px;
+}
+#forms2 h1{
+	font-family: cambria;
+}
+#placeHead{
+	background-image: url(background5.jpg);
+	padding: 200px;
+}
+#placeHead h1{
+	text-align: center;
+	font-family: cambria;
+	font-size: 100px;
+}
+#placeHead h2{
+	text-align: center;
+	font-family: candara;
+	color: #B22222;
+}
+#placeHead2 p{
+	font-family: candara;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-top: 10px;
+	font-size: 18px;
+	line-height: 30px;
+}
+#placeHead3{
+	text-align: center;
+}
+#placeHead3 h1{
+	text-align: center;
+	font-family: cambria;
+}
+#placeHead3 h2{
+	text-align: center;
+	font-family: candara;
+	color: #B22222;
+}
+#placeHead3 p{
+	margin-left: 200px;
+	margin-right: 200px;
+	font-family: candara;
+	font-size: 18px;
+}
+#place-content h5{
+	font-family: tahoma;
+	text-align: center;
+	font-size: 25px;
+}
+#place-content p{
+	text-align: center;
+	line-height: 22px;
+	font-family: candara;
+	font-size: 20px;
+}
+#placeHeadCentral{
+	background-image: url(background6.jpg);
+	padding: 200px;
+}
+#placeHeadCentral h1{
+	text-align: center;
+	font-family: cambria;
+	font-size: 100px;
+}
+#placeHeadCentral h2{
+	text-align: center;
+	font-family: candara;
+	color: #B22222;
+}
+#placeHeadEastern{
+	background-image: url(background7.jpg);
+	padding: 200px;
+}
+#placeHeadEastern h1{
+	text-align: center;
+	font-family: cambria;
+	font-size: 100px;
+}
+#placeHeadEastern h2{
+	text-align: center;
+	font-family: candara;
+	color: #B22222;
+}
+
+#placeHeadAtlantic{
+	background-image: url(background8.jpg);
+	padding: 200px;
+}
+#placeHeadAtlantic h1{
+	text-align: center;
+	font-family: cambria;
+	font-size: 100px;
+}
+#placeHeadAtlantic h2{
+	text-align: center;
+	font-family: candara;
+	color: #B22222;
+}
+#galleryHead{
+	background-image: url(background9.jpg);
+	padding: 200px;
+}
+#galleryHead h2{
+	text-align: center;
+	font-family: candara;
+	color: #B22222;
+}
+#galleryHead h1{
+	text-align: center;
+	font-family: cambria;
+	font-size: 100px;
+}
+#galleryHead2 p{
+	font-family: candara;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-top: 10px;
+	font-size: 18px;
+	line-height: 30px;
+}
+#galleryTitle h1{
+	font-family: cambria;
+	text-align: center;
+}
+#galleryTitle h2{
+	text-align: center;
+	font-family: candara;
+	color: #B22222;
+}
+#galleryTitle p{
+	text-align: center;
+	font-family: candara;
+	font-size: 18px;
+}
+#regions h1{
+	font-family: cambria;
+	text-align: center;
+}
+#regions h2{
+	font-family: candara;
+	text-align: center;
+	color: #B22222;
+}
+#imgMap{
+	text-align: center;
+}
+#shadow{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+.anim button{
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+}
+@keyframes example{
+  0%   {top:0px;}
+  100% {top:10px;}
+}
